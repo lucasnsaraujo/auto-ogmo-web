@@ -1,0 +1,15 @@
+.button {
+    width: 20rem;
+    height: 40px;
+    border-radius: 5px;
+    outline-width: 0;
+    border: 0;
+    padding: 5px 10px;
+    background-color: var(--white);
+    color: var(--gray-850);
+
+    &:active, &:focus {
+        outline: 2px solid var(--blue-500);
+        transition: 0.2s;
+    }
+}
